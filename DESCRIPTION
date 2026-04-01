@@ -1,0 +1,19 @@
+Package: drpkgSkeleton
+Type: Package
+Title: Utilities for Composite Null and Mediation Testing
+Version: 0.0.0.9001
+Authors@R: 
+    person(given = "Haoyu", family = "Yang", role = c("aut", "cre"),
+           email = "your_email@example.com")
+Description: Utilities for empirical-null correction, DACT, HDMT,
+    TLR-style procedures, simulation helpers, and QQ plotting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    fdrtool,
+    grid,
+    lattice,
+    locfdr,
+    pracma
