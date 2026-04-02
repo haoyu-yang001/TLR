@@ -1,4 +1,4 @@
-Package: drpkgSkeleton
+Package: TLR
 Type: Package
 Title: Utilities for Composite Null and Mediation Testing
 Version: 0.0.0.9001
