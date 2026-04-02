@@ -98,3 +98,5 @@ You can install the development version from GitHub with
 ```r
 library(devtools)
 devtools::install_github("https://github.com/haoyu-yang001/TLR")
+library(TLR)
+help("TLR")
