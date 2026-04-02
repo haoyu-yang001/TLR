@@ -1,6 +1,6 @@
-# TLRmediation
+# TLR
 
-`TLRmediation` is an R package for large-scale causal mediation testing under a composite null hypothesis, motivated by epigenome-wide studies with a large number of candidate mediators.
+`TLR` is an R package for large-scale causal mediation testing under a composite null hypothesis, motivated by epigenome-wide studies with a large number of candidate mediators.
 
 The package implements the **tail likelihood ratio (TLR)** procedure for testing whether an exposure affects an outcome through a mediator, together with supporting utilities for:
 
@@ -92,7 +92,9 @@ The main goal of `TLRmediation` is to provide a practical implementation of the 
 
 ## Installation
 
-During development, you can load the package locally with:
+
+You can install the development version from GitHub with
 
 ```r
-devtools::load_all()
+library(devtools)
+devtools::install_github("https://github.com/haoyu-yang001/TLR")
