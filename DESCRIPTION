@@ -17,3 +17,5 @@ Imports:
     lattice,
     locfdr,
     pracma
+URL: https://github.com/haoyu-yang001/TLR
+BugReports: https://github.com/haoyu-yang001/TLR/issues
