@@ -221,7 +221,7 @@ lfdr_thre <- function(p.M, p.Y, estws, alpha_true, beta_true,sets,sig_level){
 #'
 #' @export
 
-TLR = function(p.M,p.Y,estws,coefs,coefs2,significance_upper,control.method,ifcond){
+TLR <- function(p.M,p.Y,estws,coefs,coefs2,significance_upper,control.method,ifcond){
   sim.num <- length(p.M)
 
   pi.01.est = max(1e-3, estws$alpha01)
