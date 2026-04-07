@@ -1,7 +1,7 @@
 Package: TLR
 Type: Package
 Title: Utilities for Composite Null and Mediation Testing
-Version: 0.0.0.1
+Version: 0.0.1.1
 Authors@R: 
     person(given = "Haoyu", family = "Yang", role = c("aut", "cre"),
            email = "yanghaoyu000720@gmail.com")
